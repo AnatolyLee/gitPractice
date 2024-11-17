@@ -2,7 +2,7 @@ import React from 'react';
 
 const StyledComponent = () => {
   const divStyle = {
-    backgroundColor: 'yellow', // Светло-голубой фон
+    backgroundColor: 'blue', // Светло-голубой фон
     padding: '20px',         // Внутренние отступы
     borderRadius: '10px',    // Скругленные углы
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', // Тень
@@ -15,7 +15,7 @@ const StyledComponent = () => {
 
   return (
     <div style={divStyle}>
-      Коммит 2.
+      Коммит 3.
     </div>
   );
 };
